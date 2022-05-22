@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+
+    <link rel="stylesheet" type="text/css" href="file:///css/style.css">
+    <link rel="icon" type="image/x-icon" href="file:///images/icons8-musical-48.png">
+
+</head>
+
+<body>
+    <h1 id="audioPlayer" value="0">Audio Player</h1>
+
+    <h2 id="title"></h2>
+    <br>
+    <p id="filepath"></p>
+
+
+
+
+    <div class="div1">
+        <div>
+            <p>Open File</p>
+            <button type="button" onClick=sendMessage()><img src="file:///images/audio_file.png" id="openFile"></button></div><br>
+        <div class="div2">
+            <div>
+                <p>Play - Pause</p>
+                <button id="playBtn"><img src="file:///images/pause_circle.png" id="play-pause"></button></div>&nbsp&nbsp&nbsp
+
+            <div>
+                <p>Stop</p>
+                <button id="stopBtn"><img src="file:///images/stop_circle.png"></button></div>
+        </div>
+        <br>
+        <div>
+            <p>Mute</p>
+            <button id="muteBtn"><img src="file:///images/volume_off.png" id="mute"></button></div>
+    </div>
+
+
+    <script src=script.js></script>
+</body>
+
+</html>
