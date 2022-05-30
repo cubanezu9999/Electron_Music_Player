@@ -1,0 +1,14 @@
+{
+    "name": "electron",
+    "version": "1.0.0",
+    "description": "dialog",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Daniel Budris",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "electron": "^18.2.0"
+    }
+}
