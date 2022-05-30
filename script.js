@@ -128,9 +128,4 @@ window.api.fileName((data) => {
         audio.pause()
         audio = null;
     })
-
-
-
-
-
 })

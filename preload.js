@@ -9,5 +9,3 @@ const API = {
     }),
 
 }
-
-contextBridge.exposeInMainWorld("api", API)
